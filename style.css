@@ -1,0 +1,62 @@
+/* 整体背景 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* 头部 */
+header {
+    background-color: #b9abab;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 导航栏 */
+nav {
+    background-color: #413e3e;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 主体内容 */
+main {
+    p {
+    margin-bottom: 10px;
+}
+    h11 {
+       text-align: center; 
+    }
+    h21 {
+       text-align: center; 
+    }
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* 页脚 */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
